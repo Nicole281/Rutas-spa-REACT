@@ -1,0 +1,48 @@
+.navbar ul {
+  list-style-type: none;
+  padding-top: 0.75em;
+  padding-bottom: 0.75em;
+  padding-left: 3em;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; 
+
+  background-color: #00293A;
+
+  font-family: 'Oswald', sans-serif;
+}
+/* Alinea los elementos de navegación horizontalmente */
+.navbar li {
+  margin-right: 20px;
+  paddinng: 50px/* Espaciado entre elementos */
+}
+/* Estilos para los enlaces de navegación */
+.navbar a {
+  text-decoration: none;
+  color: #E5E5E5;
+  font-weight: bold;
+  font-size: 16px;
+  paddinng: 50px
+}
+/* Estilos para los enlaces cuando se desplaza sobre ellos */
+.navbar a:hover {
+  color: #FCA311;
+}
+
+
+
+footer
+{
+    margin-top:50px;
+    width:100%;
+    height:200px;
+    background-color:#00293A
+
+}
+footer h1,
+footer span:before,
+footer h3,
+footer a,
+footer p{
+  color:white;
+}
